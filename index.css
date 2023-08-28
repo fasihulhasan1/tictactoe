@@ -1,0 +1,42 @@
+body{
+    /* background: url(Screenshot\ 2023-08-28\ 221821.png); */
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    border: 1px solid black;
+    font-size: 80px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(240, 233, 225);
+}
+.br{
+    border-right: none;
+}
+.bl{
+    border-left: none;
+}
+.bt{
+    border-top: none;
+}
+.bb{
+    border-bottom: none;
+}
